@@ -230,3 +230,9 @@
     display: block;
     
   }
+  @media (max-width: 500px) {
+    .contanier {
+      display: flex;
+      flex-direction: column;
+    }
+}
